@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import ApplicationFunctions from "@/components/ApplicationFunctions"
+import ApplicationFunctions from "./components/ApplicationFunctions"
 
  
 export default function Home() {
@@ -8,13 +8,13 @@ export default function Home() {
   <main  className="min-h-screen bg-background text-foreground">
     <header className="border-b border-boarder bg-card">
       <div classname="mx-auto flex max-w-6xl flex-wrap items-centre justify-between gap-5 px-6 py-5">{/*use AI to fix*/}
-       <Image
+       {/*<Image
         src="/images/gradmatch-logo.jpg"
         alt="GradMatch - Versatile Career Tracker"
-        width={790}
-        height={255}
-        className="h-auto w-full max-w-[330px] rounded-md"
-        />
+        width={50}
+        height={35}
+        className="h-auto w-full max-w-[35px] rounded-md"
+        />*/}
         <div className="rounded-full bg-secondary px-4 py-2 text-sm font-medium text-secondary-foreground">{/*use AI to fix*/}
           Student/Graduates
         </div>
@@ -48,7 +48,7 @@ export default function Home() {
         </div>
 
         <footer className="border-t border-border px-6 py-5 text-cemter text-sm text-muted-foreground">
-        Team Memebers - Nicole , Vera, Clein, gargi Borphukan
+        Team Memebers - Nicole , Vera, Clein, Gargi Borphukan
         </footer> 
 </main>
 
